@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+
+  	
+	<title>emission</title>
+</head>
+<body>
+
+
+
+										<!--leftside-->
+			<div class="leftside">
+					
+
+
+
+
+
+
+<div class="left-navs">
+		
+		<ul class="nav nav-1"> 
+		<div class='logo3'></div>
+			<li><a href="dashboard.html"  class="dash011">Dashboard</a></li>
+			<li><a href="chat.html"  class="dash04">Chat</a></li>
+			<li><a href="meetings.html"  class="current dash021">Meetings</a></li>
+			<li><a href="notes.html"  class="dash05">Notes</a></li>
+			<li><a href="events.html"  class="dash03">Events</a></li>
+			<li><a href="#"  class="dash06">Documents</a></li>
+			<li><a href="#"  class="dash07">Contacts</a></li>
+	</ul>
+
+	</div>
+	
+
+
+
+
+
+
+
+
+        	</div>
+
+
+<!-- kraj leftside -->
+
+
+
+
+
+
+
+
+
+
+        <div class="rightside">
+
+
+
+
+				<!--  PREFERENCES DIALOG  -->
+
+	        <div class="pref">
+	        	<form>
+				  <input type="text" name="search" placeholder="Search..">
+				</form>
+								 <div style="clear: both"></div>
+		        <ul>
+			        <li>
+
+			        <div class="box">
+							<a class="button" href="#popup1"><img src="img/preferences1.svg" class="preferences" style="width:18px;"></a>
+						</div>
+
+						<div id="popup1" class="overlay">
+							<div class="popup">
+								<h2>PREFERENCES</h2>
+								 <div style="clear: both"></div>
+								<h4>Select an option</h4>
+								
+
+								<div class="radios">
+									  <ul>
+										  <li>
+										    <input type="radio" id="f-option" name="selector">
+										    <label for="f-option">Send me email reminder to order meal</label>
+										    
+										    <div class="check"></div>
+										  </li>
+										  
+										  <li>
+										    <input type="radio" id="s-option" name="selector">
+										    <label for="s-option">Choose randomle one of two standard meals</label>
+										    
+										    <div class="check"><div class="inside"></div></div>
+										  </li>
+										  
+										  <li>
+										    <input type="radio" id="t-option" name="selector">
+										    <label for="t-option">Make order which is based on my previously of standard meals</label>
+										    
+										    <div class="check"><div class="inside"></div></div>
+										  </li>
+
+										  <li>               <!--toggle-->
+								                <div class="toggle1">
+								                    <label class="switch">
+								                        <input type="checkbox">
+								                        <div class="slider round"></div>
+								                    </label>
+								                </div>
+								                <p>Disable all preferences</p>
+										  </li>
+
+									</ul>
+								</div>
+								<a class="apply hvr-sweep-to-bottom"  href="#">Apply</a>
+								<a class="close hvr-sweep-to-bottom2" href="#">Cancel</a>
+
+								<div class="content">
+								</div>
+							</div>
+						</div></a>
+					</li>
+
+<!--  kraj PREFERENCES DIALOGa  -->
+
+			        <li><p>Miloš</p></li>
+			        			        	  
+			        <li><div class="dd drop" tabindex="1">
+			        	<img src="img/profil2.png" style="width:38px;  margin-right: 12px;">
+
+						    <ul class="dropdown">
+						      <li class="profilna"><img src="img/profil3.png" style="width:66px;"></li>
+						      <li><p class="ime-prezime">Miloš Radojević</p></li>
+						      <li><a href="#">View profile</a></li>
+						      								 <div style="clear: both"></div>
+						      <li><a class="out-dr" href="index.html"><p class="out-drop">Log Out</p></a></li>
+						    </ul>
+						</div>  
+			        </li>
+
+			        <li><a href="index.html"><img src="img/logout1.svg" class="logout" alt="pref" style="width:16px;"></a></li>
+
+
+
+		        </ul>
+		        								 <div style="clear: both"></div>
+	            
+	        </div>
+
+
+	        				<!--  clndr  -->
+
+
+<div class="clndr">
+
+
+<div class="calendar">
+  
+  <header>
+      <button class="secondary" style="align-self: flex-start; flex: 0 0 1">Today</button>
+      <div class="calendar__title" style="display: flex; justify-content: center; margin: 0 auto; align-items: center">
+        <div class="icon secondary chevron_left">‹</div>
+        <h1 class="" style="flex: 1;"><span></span><strong>18 JAN – 24 JAN</strong> 2016</h1>
+        <div class="icon secondary chevron_left">›</div>
+      </div> 
+      <div style="align-self: flex-start; flex: 0 0 1"></div>
+     <div class="spojka"> 
+      <button class="secondary2" style="align-self: flex-start; flex: 0 0 1">Week</button>
+      <button class="secondary3" style="align-self: flex-start; flex: 0 0 1">Month</button>
+     </div> 
+  </header>
+  
+  <div class="outer">
+
+  
+  <table>
+  <thead>
+    <tr>
+      <th class="headcol"></th>
+      <th>Mon <span>18</span></th>
+      <th class="pomeranje">Tue <span>19</span></th>
+      <th class="today pomeranje">Wed <span>20</span></th>
+      <th class="pomeranje pomeranje2">Thu <span>21</span></th>
+      <th class="pomeranje pomeranje3">Fri <span>22</span></th>
+      <th class="secondary pomeranje pomeranje4">Sat <span>23</span></th>
+      <th class="secondary pomeranje pomeranje5">Sun <span>24</span></th>
+    </tr>
+  </thead>
+  </table>
+
+<div class="wrap"> 
+  <table class="offset">
+
+  <tbody>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td class="past"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">6:00</td>
+      <td></td>
+      <td></td>
+      <td class="past"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td class="past"></td>
+      <td></td>
+      <td></td>
+      <td><div class="event double event2 double2"><input id="check" type="checkbox" class="checkbox" /><label for="check"></label>6:30–8:00<br><span>Meeting</span></div></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">7:00</td>
+      <td></td>
+      <td></td>
+      <td class="past"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td class="now"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">8:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><div class="event double"><input id="check" type="checkbox" class="checkbox" /><label for="check"></label>8:30–9:30<br><span>Weekly Design Talk</span></div></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">9:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">10:00</td>
+      <td></td>
+      <td></td>
+      <td><div class="event double event2"><input id="check" type="checkbox" class="checkbox" /><label for="check"></label>10:00–11:00<br><span>Meeting</span></div></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">11:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">12:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">13:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">14:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">15:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">16:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">17:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol">18:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="headcol"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- kraj  rightside -->
+
+
+
+        <div class="footer-kraj">
+        </div>
+	
+
+
+ <div style="clear: both"></div>
+
+
+
+<!-- SPECIAL MEALS  -->
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabc, tablinks;
+    tabc = document.getElementsByClassName("tabc");
+    for (i = 0; i < tabc.length; i++) {
+        tabc[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+<script type="text/javascript">
+	$('.canvas-toggle').hide();
+
+ function sideNav() {
+
+   if ($(window).width() <= 1133) {
+
+     $('.sidebar').hide();
+
+   
+
+   } else {
+
+     $('.sidebar').show();
+
+  
+
+   }
+
+ }
+
+ $('.canvas-toggle').click(function() {
+   
+ 
+ });
+
+
+ $(window).resize(function() {
+
+   sideNav();
+
+ });
+</script>
+	
+
+<script type="text/javascript">
+  $("#create").click(function() {
+  $(this).before("<textarea></textarea>");
+});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function (){
+  var $dd = $('.dd');
+
+  $dd.on('click', function (){
+    $(this).toggleClass('active');
+  });              
+});
+</script>
+
+<!-- KLNDR -->
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>

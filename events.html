@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+
+  	
+	<title>emission</title>
+</head>
+<body>
+<div class="server-error">
+
+
+        <div class="dugmence-backtoearth">
+             <a class="hvr-sweep-to-bottom"  href="dashboard.html">BACK TO EARTH</a></div>
+        </div>
+	
+
+</div>
+
+
+
+<!-- kraj  rightside -->
+
+
+
+
+
+
+
+<!-- SPECIAL MEALS  -->
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabc, tablinks;
+    tabc = document.getElementsByClassName("tabc");
+    for (i = 0; i < tabc.length; i++) {
+        tabc[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+<script type="text/javascript">
+	$('.canvas-toggle').hide();
+
+ function sideNav() {
+
+   if ($(window).width() <= 1133) {
+
+     $('.sidebar').hide();
+
+   
+
+   } else {
+
+     $('.sidebar').show();
+
+  
+
+   }
+
+ }
+
+ $('.canvas-toggle').click(function() {
+   
+ 
+ });
+
+
+ $(window).resize(function() {
+
+   sideNav();
+
+ });
+</script>
+	
+
+<script type="text/javascript">
+  $("#create").click(function() {
+  $(this).before("<textarea></textarea>");
+});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function (){
+  var $dd = $('.dd');
+
+  $dd.on('click', function (){
+    $(this).toggleClass('active');
+  });              
+});
+</script>
+
+
+
+</body>
+</html>

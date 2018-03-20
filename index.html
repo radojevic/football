@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  	
+	<title>emission</title>
+
+ <!-- fade in content efekat -->
+<script type="text/javascript">
+    $(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+</script>
+
+
+
+</head>
+
+
+
+
+
+<body class="background-index">
+
+
+
+	<div class="image-container">
+
+                         <!-- LOGIN -->
+
+        <div class="logo">
+            <img src="img/logo5.svg" alt="cvekla logo" style="width:186px;">
+        </div>
+         <div style="clear: both"></div>
+
+
+                    <div class="kontakt-box">
+
+
+                             <form class="kontakt">
+                              
+                              <div class="group">      
+                                <input type="text" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Username</label>
+                              </div>
+
+
+                              <div class="group">      
+                                <input type="password" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Password</label>
+                              </div>
+                                
+                             
+                            </form>
+
+                            <div class="dugmence">
+                              <a class="hvr-sweep-to-bottom"  href="dashboard.html">LOGIN</a></div>
+                            </div>
+
+                            <div class="forgot">
+                               <a href="#">Forgot your password?</a>
+                            </div>
+
+                    </div>
+                            <div style="clear: both"></div>
+
+                      
+
+    </div>
+
+
+ <!-- kraj contenta -->
+
+         <div style="clear: both"></div>
+          <div class="futer">
+              <p>© 2009-2017 All Rights Reserved. Emisia Consulting</p>
+         </div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
