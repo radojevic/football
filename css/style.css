@@ -85,7 +85,8 @@ body{
 } 
 
 
-.background-index {background-color: #e6e6ea;}
+.background-index {background: rgba(60,217,144,1);
+height: 100vh;}
 
 
 
@@ -126,7 +127,7 @@ Primary style
   padding:13px 13px 13px 5px;
   display:block;
   width:100%;
-  font-family: 'Book';
+  font-family: 'Regular';
   border:none;
   color: #3d3d94;
   border-bottom:1px solid #a7a7c3;
@@ -144,7 +145,7 @@ Primary style
   color:#a7a7c3; 
   letter-spacing: 1px;
   font-size:18px;
-  font-family: 'Book';
+  font-family: 'Regular';
   position:absolute;
   pointer-events:none;
   left:5px;
@@ -160,7 +161,7 @@ Primary style
   top:-20px;
   font-size:14px;
   color:#a7a7c3;
-  font-family: 'Book';
+  font-family: 'Regular';
 }
 
 /* active state */
@@ -168,7 +169,7 @@ Primary style
   top:-20px;
   font-size:14px;
   color:#a7a7c3;
-  font-family: 'Book';
+  font-family: 'Regular';
 }
 
 
@@ -274,13 +275,13 @@ Primary style
    
 }
 
-.forgot a {  font-size:12px; font-family: 'Book'; color: #3d3d94;
+.forgot a {  font-size:12px; font-family: 'Regular'; color: #3d3d94;
     -webkit-transition: all 0.4s ease-in;
     -moz-transition: all 0.4s ease-in;
     -o-transition: all 0.4s ease-in;
     -ms-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;}
-.forgot a:hover {  font-size:12px; font-family: 'Book'; color: #684fae; text-decoration: underline;
+.forgot a:hover {  font-size:12px; font-family: 'Regular'; color: #684fae; text-decoration: underline;
     -webkit-transition: all 0.4s ease-out;
    -moz-transition: all 0.4s ease-out;
    -o-transition: all 0.4s ease-out;
@@ -288,7 +289,7 @@ Primary style
    transition: all 0.4s ease-out;}
 
 
-.futer p {font-size:10px; font-family: 'Book'; color:#8181ac;     position: fixed;  bottom:2%; text-align: center;  left: 0; right: 0;}
+.futer p {font-size:10px; font-family: 'Regular'; color:#8181ac;     position: fixed;  bottom:2%; text-align: center;  left: 0; right: 0;}
 
 
 
@@ -363,7 +364,7 @@ Primary style
 
 
 
-.image-container {background: url(../img/patter35o.jpg) no-repeat center; height:  32vh;}
+
 
 
 
@@ -934,16 +935,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
     float: right;
 
     margin-bottom: 500px;
-
 }
 
+.divider2 {
+    display: inline-block;
+    width: 485px;
+    height: 1px;
+  background-color: #bfc1c7;
+  opacity: 0.42;
+  margin-bottom: 10px;
+  }
 
 
-/****************  kraj STANDARD MEALS    **************/
+
+/****************  kraj profile    **************/
+
+
+
   
+/********************************  POST    ******************************/
 
+.profile-pic-small {float: left; margin-top: 12px; margin-left: 16px;}
 
-
+.write-post {vertical-align: middle;}
+.write-post ul {margin-right: 20px;}
+.write-post ul li {display: inline-block; text-align: left; float: right; font-family: 'Medium'; font-size: 0.8em; color: #1c1e22; line-height: 2em; margin-left: 40px; margin-top: 7px;}
+.write-post ul li img {vertical-align: middle;  margin-top: -4px; margin-right: 12px;}
+.write-post ul li a {margin-top: 10px; text-decoration: none; color: #a5a9b4;}
+.write-post ul li a span {color: #23b874;}
 
 
 
