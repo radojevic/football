@@ -467,7 +467,7 @@ Primary style
 .lgsearch {width: 810px; margin: 0 auto;}
 .logotip {position: absolute; margin-top: 10px; }
 
-.pref {  width: 100%; height: 50px;   background-color: #23b874; padding-right: 150px;}
+.pref {  width: 100%; height: 50px;   background-color: #23b874; padding-right: 150px; position: fixed;}
 
 
 .pref p {font-family: 'Book'; color: #737394; font-size: 15px; line-height: 14px; padding-left: 16px; padding-right: 8px;}
@@ -815,7 +815,7 @@ input:checked + .slider:before {
                         /****************  Profile cover    **************/
 
 
-.standard { display: block; margin-top: 15px; padding-right: 150px; }
+.standard { display: block; padding-top: 64px; padding-right: 150px; }
 
 
 .profile-cover {	background: url('../img/profile-cover.png') no-repeat center; 
