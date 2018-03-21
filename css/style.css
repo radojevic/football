@@ -984,6 +984,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
     border-radius: 3px;
     margin-left: 291px;
     cursor: pointer;
+    outline: none;
         -webkit-transition: all 0.11s ease-in;
     -moz-transition: all 0.11s ease-in;
     -o-transition: all 0.11s ease-in;
