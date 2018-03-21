@@ -920,6 +920,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
     margin-top: -166px;
     margin-right: 53px;
     opacity: 0.16;
+    overflow: hidden;
 	letter-spacing: -10px;}
 
 
@@ -964,8 +965,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
 .write-post ul li a {margin-top: 10px; text-decoration: none; color: #a5a9b4;}
 .write-post ul li a span {color: #23b874;}
 
+.write-post-2 {vertical-align: middle;}
+.write-post-2 ul {    margin-left: 34px;}
+.write-post-2 ul li {display: inline-block; text-align: left; float: left; font-family: 'Medium'; font-size: 0.8em; color: #1c1e22; line-height: 2em;margin-top: 13px;}
+.write-post-2 ul li img {vertical-align: middle;  margin-top: -4px; margin-right: 12px;}
+.write-post-2 ul li a {margin-top: 10px; text-decoration: none; color: #a5a9b4;}
+.write-post-2 ul li a span {color: #23b874;}
 
+.write-post-2 ul li button {
+    background-color: #23b874;
+    border: none;
+    color: white;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 3px;
+    margin-left: 291px;
+    cursor: pointer;
+        -webkit-transition: all 0.11s ease-in;
+    -moz-transition: all 0.11s ease-in;
+    -o-transition: all 0.11s ease-in;
+    -ms-transition: all 0.11s ease-in;
+    transition: all 0.11s ease-in;
+}
 
+.write-post-2 ul li button:hover {
+    background-color: #0e2e76;
+
+}
 
 /*******************************************************************     C    H    A    T     ************************************************************************/
 
@@ -1286,7 +1315,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
   align-items: center;
   bottom: 0;
   background-color: #fff;
-  border-top: 2px solid #EEE;
   
 }
 
@@ -1320,26 +1348,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
 
 .write-message {
   border:none !important;
-  width:60%;
-  height: 50px;
-  margin-left: 6%;
-  padding: 10px;
-  outline: none;
-  font-size: 1.1em;
+  width:90%;
+  height: 80px;
+  margin-left: -20px;
+  margin-top: -28px;
+outline: none;
+  font-size: 0.9em;
+  font-family: 'Regular';
 }
 
 .footer-chat *::-webkit-input-placeholder {
-color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
+color: #959aa5; font-family: 'Light'; font-size: 0.95em;
 }
 .footer-chat input *:-moz-placeholder {
-color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
+color: #959aa5; font-family: 'Light'; font-size: 0.95em;
 }
 .footer-chat input *::-moz-placeholder {
-color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
+color: #959aa5; font-family: 'Light'; font-size: 0.95em;
   margin-left:5px;
 }
 .footer-chat input *:-ms-input-placeholder {
-color: #a7a7c3; font-family: 'Book'; font-size: 0.95em;
+color: #959aa5; font-family: 'Light'; font-size: 0.95em;
 }
 
 .clickable {
