@@ -85,10 +85,10 @@ body{
 } 
 
 
-.background-index {background: rgba(60,217,144,1);
+.background-index {background: #fff; padding: 20px;
 height: 100vh;}
 
-
+.igraliste {background-color: #23b874; height: 100%;}
 
 
 
