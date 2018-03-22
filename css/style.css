@@ -86,9 +86,9 @@ body{
 
 
 .background-index {background: #fff;
-height: 100vh;}
+height: 100vh; padding: 30px;}
 
-.igraliste {width: 60%; background: url(../img/bop3.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
+.igraliste {width: 60%; background: url(../img/bop8.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
 
 
 
@@ -144,7 +144,7 @@ Primary style
 .kontakt label          {
   color:#a7a7c3; 
   letter-spacing: 1px;
-  font-size:18px;
+  font-size:0.9em;
   font-family: 'Regular';
   position:absolute;
   pointer-events:none;
@@ -241,37 +241,38 @@ Primary style
 }
 
 .dugmence {
-    width: 100%;
-    background-color: #3d3d94;
+    width: 26%;
+    border-radius: 100px;
+    background-color: #23b874;
     margin:auto;
-    margin-top: 15%;
-    -webkit-transition: all 0.4s ease-in;
-    -moz-transition: all 0.4s ease-in;
-    -o-transition: all 0.4s ease-in;
-    -ms-transition: all 0.4s ease-in;
-    transition: all 0.4s ease-in;
+    float: right;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
   }
 
 .dugmence a{
-    color: #dddde8;
+    color: #fff;
     width: 100%;
-    line-height: 60px;
-    font-family: 'Book';
-    font-size: 20px;
+    line-height: 44px;
+    font-family: 'Light';
+    font-size: 1em;
     display: inline-block;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     margin:auto;
   }
 
 .dugmence:hover{
-    background-color: #684fae;
+    background-color: #0e2e76;
     cursor: pointer;
-   -webkit-transition: all 0.4s ease-out;
-   -moz-transition: all 0.4s ease-out;
-   -o-transition: all 0.4s ease-out;
-   -ms-transition: all 0.4s ease-out;
-   transition: all 0.4s ease-out
+   -webkit-transition: all 0.2s ease-out;
+   -moz-transition: all 0.2s ease-out;
+   -o-transition: all 0.2s ease-out;
+   -ms-transition: all 0.2s ease-out;
+   transition: all 0.2s ease-out
    
 }
 
