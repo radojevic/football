@@ -85,10 +85,10 @@ body{
 } 
 
 
-.background-index {background: #fff; padding: 20px;
+.background-index {background: #fff;
 height: 100vh;}
 
-.igraliste {background-color: #23b874; height: 100%;}
+.igraliste {width: 60%; background: url(../img/bop3.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
 
 
 
@@ -136,7 +136,7 @@ Primary style
 
 .kontakt input:focus     { outline:none; }
 
-
+.image-container {float: left; width: 40%; display: block;}
 
 
 
