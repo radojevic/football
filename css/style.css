@@ -88,7 +88,7 @@ body{
 .background-index {background: #fff;
 height: 100vh; padding: 30px;}
 
-.igraliste {width: 60%; background: url(../img/bop9.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
+.igraliste {width: 60%; background: url(../img/bop19.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
 
 
 
@@ -109,8 +109,8 @@ Primary style
          /****** S L I K A ******/
 
 
-.logo {  margin: 0 auto; padding-top: 2.5%;}
-.kontakt-box {width: 600px; margin: auto; text-align: center; margin-top:4.5%; background-color: rgba(255,255,255, 0); padding: 4% 2% 2% 2%;}
+.logo {  margin: 0 auto; float: left; margin-left: 5%;}
+.kontakt-box {width: 600px; margin: auto; text-align: center; margin-top:24%; background-color: rgba(255,255,255, 0); padding: 4% 2% 2% 2%;}
 
 
 
