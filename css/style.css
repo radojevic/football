@@ -969,17 +969,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
 
 .write-post {vertical-align: middle;}
 .write-post ul {margin-right: 20px;}
-.write-post ul li {display: inline-block; text-align: left; float: right; font-family: 'Medium'; font-size: 0.8em; color: #1c1e22; line-height: 2em; margin-left: 40px; margin-top: 7px;}
+.write-post ul li {display: inline-block; text-align: left; float: right; font-family: 'Regular'; font-size: 0.8em; color: #1c1e22; line-height: 2em; margin-left: 40px; margin-top: 7px;}
 .write-post ul li img {vertical-align: middle;  margin-top: -4px; margin-right: 12px;}
 .write-post ul li a {margin-top: 10px; text-decoration: none; color: #a5a9b4;}
-.write-post ul li a span {color: #23b874;}
+.write-post ul li a span {color: #23b874; font-family: 'Medium';}
 
 .write-post-2 {vertical-align: middle;}
 .write-post-2 ul {    margin-left: 34px;}
 .write-post-2 ul li {display: inline-block; text-align: left; float: left; font-family: 'Medium'; font-size: 0.8em; color: #1c1e22; line-height: 2em;margin-top: 13px;}
 .write-post-2 ul li img {vertical-align: middle;  margin-top: -4px; margin-right: 12px;}
 .write-post-2 ul li a {margin-top: 10px; text-decoration: none; color: #a5a9b4;}
-.write-post-2 ul li a span {color: #23b874;}
+.write-post-2 ul li a span {color: #23b874; }
 
 .write-post-2 ul li button {
     background-color: #23b874;
@@ -1071,10 +1071,10 @@ margin-top: 26px;}
 
 .comments {vertical-align: middle; margin: 0 auto;}
 .comments ul {}
-.comments ul li {display: inline-block; text-align: left;  font-family: 'Medium'; font-size: 0.8em; color: #1c1e22; line-height: 2em; margin-left: 58px; margin-top: 7px;}
+.comments ul li {display: inline-block; text-align: left;  font-family: 'Medium'; font-size: 0.8em; color: #1c1e22; line-height: 2em; margin-left: 65px; margin-top: 7px;}
 .comments ul li:first-child {margin-left: 0px;}
 .comments ul li img {vertical-align: middle;  margin-top: -4px; margin-right: 10px;}
-.comments ul li a {margin-top: 10px; text-decoration: none; color: #a5a9b4;}
+.comments ul li a {margin-top: 10px; text-decoration: none; color: #a5a9b4; font-family: 'Regular';}
 .comments ul li a span {color: #23b874;}
 
 /*******************************************************************     C    H    A    T     ************************************************************************/
