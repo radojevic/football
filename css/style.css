@@ -81,14 +81,14 @@
 
 
 body{
-  text-align:center; background-color: #f1f3f5;
+  text-align:center; background-color: #e7eaef;
 } 
 
 
 .background-index {background: #fff;
 height: 100vh; padding: 30px;}
 
-.igraliste {width: 60%; background: url(../img/bop19a.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
+.igraliste {width: 60%; background: url(../img/bop19b.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
 
 
 
@@ -243,7 +243,7 @@ Primary style
 .dugmence {
     width: 26%;
     border-radius: 100px;
-    background-color: #23b874;
+    background-color: #38b589;
     margin:auto;
     float: right;
     -webkit-transition: all 0.2s ease-in;
@@ -308,7 +308,7 @@ Primary style
 
 .background-index {height: 100vh; padding: 20px;}
 
-.igraliste {width: 60%; background: url(../img/bop19a.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
+.igraliste {width: 60%; background: url(../img/bop19b.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
 .logo {  margin: 0 auto; float: left; margin-left: 5%;}
 }
 
@@ -322,7 +322,7 @@ Primary style
  @media all and (max-width: 1199px) {
 
 .image-container {float: left; width: 50%; display: block;}
-.igraliste {width: 50%; background: url(../img/bop19a.svg) no-repeat right top;  background-size: cover;}
+.igraliste {width: 50%; background: url(../img/bop19b.svg) no-repeat right top;  background-size: cover;}
 .kontakt-box {width: 400px; margin: auto; text-align: center; margin-top: 13%; }
 
 .dugmence {
@@ -344,7 +344,7 @@ Primary style
 .kontakt-box {width: 100%; margin: auto; text-align: center; margin-top: 13%;      padding: 5%;}
 
 .image-container {float: left; width: 70%; display: block;}
-.igraliste {width: 30%; background: url(../img/bop19a.svg) no-repeat right top;  background-size: cover;}
+.igraliste {width: 30%; background: url(../img/bop19b.svg) no-repeat right top;  background-size: cover;}
 
 .dugmence {
     width: 33%;
@@ -367,7 +367,7 @@ Primary style
 .kontakt-box {width: 100%; margin: auto; text-align: center; margin-top: 13%;}
 
 .image-container {float: left; width: 80%; display: block;}
-.igraliste {width: 20%; background: url(../img/bop19a.svg) no-repeat right top;  background-size: cover;}
+.igraliste {width: 20%; background: url(../img/bop19b.svg) no-repeat right top;  background-size: cover;}
 
 
                   }
@@ -423,7 +423,7 @@ Primary style
 
 /********************************************************************    DESNI PANEL     *********************************************************************************/
 
-.rightside {background: #f1f3f5;  height: 100vh;}
+.rightside {background: #e7eaef;  height: 100vh;}
 
 .pref input[type=text] {
     margin-left: 80px;
@@ -477,7 +477,7 @@ Primary style
 .lgsearch {width: 810px; margin: 0 auto;}
 .logotip {position: absolute; margin-top: 10px; }
 
-.pref {  width: 100%; height: 50px;   background-color: #23b874; padding-right: 150px; position: fixed;     z-index: 5;}
+.pref {  width: 100%; height: 50px;   background-color: #22b58a; padding-right: 150px; position: fixed;     z-index: 5;}
 
 
 .pref p {font-family: 'Book'; color: #737394; font-size: 15px; line-height: 14px; padding-left: 16px; padding-right: 8px;}
@@ -846,7 +846,7 @@ input:checked + .slider:before {
 }
 
 .profile-ribbon {
-  border-right: 50px solid transparent; border-top: 90px solid #23b874; width: 700px; display: inline-block;
+  border-right: 50px solid transparent; border-top: 90px solid #22b58a; width: 700px; display: inline-block;
     margin-top: -90px; float: left;
     background: #23b874; /* Old browsers */
 background: -moz-linear-gradient(left, #23b874 0%, #11a475 100%); /* FF3.6-15 */
@@ -976,7 +976,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
 
 .write-post-2 {vertical-align: middle;}
 .write-post-2 ul {    margin-left: 34px;}
-.write-post-2 ul li {display: inline-block; text-align: left; float: left; font-family: 'Medium'; font-size: 0.8em; color: #1c1e22; line-height: 2em;margin-top: 13px;}
+.write-post-2 ul li {display: inline-block; text-align: left; float: left; font-family: 'Medium'; font-size: 0.8em; color: #34b184; line-height: 2em;margin-top: 13px;}
 .write-post-2 ul li img {vertical-align: middle;  margin-top: -4px; margin-right: 12px;}
 .write-post-2 ul li a {margin-top: 10px; text-decoration: none; color: #a5a9b4;}
 .write-post-2 ul li a span {color: #23b874; }
@@ -1044,7 +1044,7 @@ margin-top: 26px;}
 .write-post-2 ul li a span {color: #23b874;}
 
 .write-post-2 ul li button {
-    background-color: #23b874;
+    background-color: #22b58a;
     border: none;
     color: white;
     padding: 6px 24px;
@@ -1101,7 +1101,7 @@ margin-top: 26px;}
 .write-post-0 ul .profile-name-2 {    margin-right: 218px;}
 
 
-.post-ribbon {border-right: 50px solid transparent; border-top: 66px solid #23b874; width: 512px; display: inline-block;     margin-top: 220px;    margin-left: -60px;}
+.post-ribbon {border-right: 50px solid transparent; border-top: 66px solid #38b589; width: 512px; display: inline-block;     margin-top: 220px;    margin-left: -60px;}
 
 .post-ribbon p { 
 	margin-top: -49px;
