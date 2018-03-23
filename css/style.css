@@ -1101,6 +1101,19 @@ margin-top: 26px;}
 .write-post-0 ul .profile-name-2 {    margin-right: 218px;}
 
 
+.post-ribbon {border-right: 50px solid transparent; border-top: 66px solid #23b874; width: 512px; display: inline-block;     margin-top: 220px;    margin-left: -60px;}
+
+.post-ribbon p { 
+	margin-top: -49px;
+    color: #fff;
+    float: left;
+    margin-left: 40px;
+    font-family: 'Light';
+    font-size: 1.35em;
+    text-align: left;
+    line-height: 1.7em;
+}
+
 /*******************************************************************     C    H    A    T     ************************************************************************/
 
 
