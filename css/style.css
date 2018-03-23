@@ -88,7 +88,7 @@ body{
 .background-index {background: #fff;
 height: 100vh; padding: 30px;}
 
-.igraliste {width: 60%; background: url(../img/bop19.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
+.igraliste {width: 60%; background: url(../img/bop19a.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
 
 
 
@@ -256,13 +256,14 @@ Primary style
 .dugmence a{
     color: #fff;
     width: 100%;
-    line-height: 44px;
+    line-height: 40px;
     font-family: 'Light';
     font-size: 1em;
     display: inline-block;
     text-decoration: none;
     letter-spacing: 3px;
     margin:auto;
+    padding-top: 4px;
   }
 
 .dugmence:hover{
@@ -302,21 +303,35 @@ Primary style
 
 
 
-.kontakt-box {width: 600px; margin: auto; text-align: center; margin-top: 6%; }
+.kontakt-box {width: 500px; margin: auto; text-align: center; margin-top: 24%; }
 
 
+.background-index {height: 100vh; padding: 20px;}
 
-                  }
+.igraliste {width: 60%; background: url(../img/bop19a.svg) no-repeat right top; float: right; display: block; background-size: cover; height: 100%;}
+.logo {  margin: 0 auto; float: left; margin-left: 5%;}
+}
+
+
+ @media all and (max-width: 1360px) {
+
+  .kontakt-box {width: 440px; margin: auto; text-align: center; margin-top: 24%; }
+
+}
 
  @media all and (max-width: 1199px) {
 
-             /****** S L I K A ******/
+.image-container {float: left; width: 50%; display: block;}
+.igraliste {width: 50%; background: url(../img/bop19a.svg) no-repeat right top;  background-size: cover;}
+.kontakt-box {width: 400px; margin: auto; text-align: center; margin-top: 13%; }
 
-
-
-
-.kontakt-box {width: 50%; margin: auto; text-align: center; margin-top: 13%;}
-
+.dugmence {
+    width: 33%;
+  }
+.dugmence a{
+    line-height: 40px;
+    font-size: 0.8em;
+  }
 
 
                   }
@@ -326,17 +341,20 @@ Primary style
 
              /****** S L I K A ******/
 
-.kontakt-box {width: 60%; margin: auto; text-align: center; margin-top: 13%;      padding: 5%;}
+.kontakt-box {width: 100%; margin: auto; text-align: center; margin-top: 13%;      padding: 5%;}
 
+.image-container {float: left; width: 70%; display: block;}
+.igraliste {width: 30%; background: url(../img/bop19a.svg) no-repeat right top;  background-size: cover;}
 
-
-
-
-
+.dugmence {
+    width: 33%;
+  }
+.dugmence a{
+    line-height: 40px;
+    font-size: 0.8em;
+  }
 
                   }
-
-
 
 
 
@@ -346,19 +364,10 @@ Primary style
 
 @media all and (max-width: 640px) {
 
-  .kontakt-box {width: 70%; margin: auto; text-align: center; margin-top: 13%;}
+.kontakt-box {width: 100%; margin: auto; text-align: center; margin-top: 13%;}
 
-
-
-             /****** S L I K A ******/
-
-.kontakt-holder {clear: both; width: 100%; margin:auto;}
-.kontakt-container {width: 100%; background: url(../images/cenovnik1.png) no-repeat center top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
-.kontakt-container p {color: rgba(0,0,0,0);  font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
-                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
-
-
-
+.image-container {float: left; width: 80%; display: block;}
+.igraliste {width: 20%; background: url(../img/bop19a.svg) no-repeat right top;  background-size: cover;}
 
 
                   }
