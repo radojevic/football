@@ -81,7 +81,7 @@
 
 
 body{
-  text-align:center; background-color: #e7eaef;
+  text-align:center; background-color: #f0f3f9;
 } 
 
 
@@ -423,7 +423,7 @@ Primary style
 
 /********************************************************************    DESNI PANEL     *********************************************************************************/
 
-.rightside {background: #e7eaef;  height: 100vh;}
+.rightside {background: #f0f3f9;  height: 100vh;}
 
 .pref input[type=text] {
     margin-left: 80px;
