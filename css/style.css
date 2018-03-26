@@ -1105,13 +1105,20 @@ height: 313px;
 margin: 0 auto;
 margin-top: 26px;}
 
+.post-photo-3 {
+  background: url('../img/photo-post-3.png') no-repeat left;
+width: 552px;
+height: 313px;
+margin: 0 auto;
+margin-top: 26px;}
+
 .profile-pic-small {float: left; margin-top: 12px; margin-left: 16px;}
 
 .write-post-0 {vertical-align: middle;}
 .write-post-0 ul { margin-top: 10px;}
 .write-post-0 ul li {display: inline-block; text-align: left;  font-family: 'Bold'; font-size: 0.8em; color: #1c1e22; line-height: 1.5em; margin-left:0px; margin-top: 7px;}
 .write-post-0 ul li .plhl-2 {color: #959aa5; font-size: 0.9em; font-family: 'Regular';}
-.write-post-0 ul .profile-name {margin-right: 316px; padding-left: 7px;}
+.write-post-0 ul .profile-name {margin-right: 320px; padding-left: 7px;}
 .write-post-0 ul li a {margin-top: 0px; text-decoration: none; color: #a5a9b4;}
 .write-post-0 ul li .plhl-3 {text-align: left;  font-family: 'Regular'; font-size: 1.05em; color: #1c1e22; line-height: 1.5em; margin-left:0px; padding-top: 3px; margin: 0 auto; width: 533px;}
 
@@ -1159,6 +1166,7 @@ margin-top: 26px;}
 .comments ul li a span {color: #23b874;}
 
 .comments-2 ul li {margin-left: 45px;}
+.comments-3 ul li {margin-left: 50px;}
 
 .post-3 {
     width: 572px;
@@ -1178,6 +1186,7 @@ margin: 0 auto;
 margin-top: 26px;}
 
 .write-post-0 ul .profile-name-2 {    margin-right: 218px;}
+.write-post-0 ul .profile-name-3 {    margin-right: 236px;}
 
 
 .post-ribbon {border-right: 50px solid transparent; border-top: 66px solid #23b874; width: 512px; display: inline-block;     margin-top: 220px;    margin-left: -60px;}
@@ -1193,6 +1202,39 @@ margin-top: 26px;}
     line-height: 1.7em;
 }
 
+.play {
+  background: url('../img/play.svg') no-repeat center;
+width: 100px;
+height: 100%;
+margin: 0 auto;
+cursor: pointer;
+opacity: 0.8;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+
+.play:hover {
+  background: url('../img/play.svg') no-repeat center;
+width: 110px;
+max-width: 100%;
+height: 100%;
+margin: 0 auto;
+cursor: pointer;
+opacity: 1;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+
+
+																
 /*******************************************************************     C    H    A    T     ************************************************************************/
 
 
