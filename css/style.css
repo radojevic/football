@@ -1189,7 +1189,19 @@ margin-top: 26px;}
 .write-post-0 ul .profile-name-3 {    margin-right: 236px;}
 
 
-.post-ribbon {border-right: 50px solid transparent; border-top: 66px solid #23b874; width: 512px; display: inline-block;     margin-top: 220px;    margin-left: -60px;}
+.post-ribbon {border-right: 50px solid transparent; border-top: 66px solid #23b874; width: 512px; display: inline-block; margin-top: 220px; margin-left: -60px;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;}
+
+.post-ribbon:hover {border-right: 50px solid transparent; border-top: 66px solid #18a565; width: 512px; display: inline-block; cursor: pointer; margin-top: 220px; margin-left: -60px;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;}
 
 .post-ribbon p { 
 	margin-top: -49px;
