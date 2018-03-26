@@ -1100,7 +1100,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
 
 .post-5 {
     width: 572px;
-    height: 578px;
+    height: 566px;
     margin-top: 28px;
     background-color: white;
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.08);
@@ -1111,7 +1111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
 
 .post-inside {
     width: 548px;
-    height: 440px;
+    height: 430px;
     background-color: white;
     border: 1px solid #d3d6dd;
     box-shadow: none;
@@ -1138,9 +1138,9 @@ margin-top: 26px;}
 .post-photo-5 {
   background: url('../img/real19023.png') no-repeat left;
 width: 524px;
-height: 326px;
+
 margin: 0 auto;
-margin-top: 22px;}
+margin-top: 18px;}
 
 .profile-pic-small {float: left; margin-top: 12px; margin-left: 16px;}
 
@@ -1151,6 +1151,7 @@ margin-top: 22px;}
 .write-post-0 ul .profile-name {margin-right: 320px; padding-left: 7px;}
 .write-post-0 ul li a {margin-top: 0px; text-decoration: none; color: #a5a9b4;}
 .write-post-0 ul li .plhl-3 {text-align: left;  font-family: 'Regular'; font-size: 1.05em; color: #1c1e22; line-height: 1.5em; margin-left:0px; padding-top: 3px; margin: 0 auto; width: 533px;}
+.write-post-0 ul li .plhl-7 {text-align: left;  font-family: 'Regular'; font-size: 1.05em; color: #1c1e22; line-height: 1.5em; margin-left:0px; padding-top: 3px; margin: 0 auto; width: 503px;}
 
 .write-post-2 {vertical-align: middle;}
 .write-post-2 ul {    margin-left: 34px;}
@@ -1197,7 +1198,7 @@ margin-top: 22px;}
 
 .comments-2 ul li {margin-left: 45px;}
 .comments-3 ul li {margin-left: 50px;}
-.comments-4 ul li {margin-left: 50px;}
+.comments-4 ul li {margin-top: 20px;}
 
 .post-3 {
     width: 572px;
@@ -1216,9 +1217,10 @@ height: 313px;
 margin: 0 auto;
 margin-top: 26px;}
 
-.write-post-0 ul .profile-name-2 {    margin-right: 218px;}
-.write-post-0 ul .profile-name-3 {    margin-right: 236px;}
-.write-post-0 ul .profile-name-4 {    margin-right: 169px;}
+.write-post-0 ul .profile-name-2 { margin-right: 218px;}
+.write-post-0 ul .profile-name-3 { margin-right: 236px;}
+.write-post-0 ul .profile-name-4 { margin-right: 169px;}
+.write-post-0 ul .profile-name-5 { margin-left: 8px; float: left;}
 
 
 .post-ribbon {border-right: 50px solid transparent; border-top: 66px solid #23b874; width: 512px; display: inline-block; margin-top: 220px; margin-left: -60px;
