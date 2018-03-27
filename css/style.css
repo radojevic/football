@@ -1035,6 +1035,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b874', end
 
 }
 
+.dugme2:after:hover { background: url(../img/camera.svg) no-repeat left;
+    content: '';
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    margin-top: -107px;
+    margin-left: -20px;
+    opacity: 1;
+
+}
+
 
 
 /****************  kraj profile    **************/
@@ -1278,6 +1290,84 @@ opacity: 1;
     transition: all 0.1s ease-out;
 }
 
+
+.standard2 {
+
+    float: left;
+    width: 250px;
+    display: block;
+    margin-left: 600px;
+    top: 460px;
+    position: fixed;
+}
+
+
+.linkovi {height: 300px;}
+
+.linkovi h2 {
+	text-align: left;
+	text-decoration: none;
+	float: left;
+	font-family: 'Medium';
+	font-size: 0.8em;
+	color: #1c1e22;
+	margin-bottom: 10px;
+	width: 150px;
+    line-height: 1.5em;
+
+}
+
+.linkovi h3 {
+	text-align: left;
+	text-decoration: none;
+	float: left;
+	font-family: 'Regular';
+	font-size: 1em;
+	color: #23b874;
+	margin-bottom: 10px;
+	width: 150px;
+    line-height: 1.5em;
+    margin-left: 10px;
+
+}
+
+.standard2 a {
+	text-align: left;
+	text-decoration: none;
+	float: left;
+	font-style: italic;
+	font-family: 'Regular';
+	font-size: 0.8em;
+	color: #959aa5;
+	margin-bottom: 10px;
+	width: 130px;
+    line-height: 1.1em;
+    margin-left: 15px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.standard2 a:hover {
+	text-align: left;
+	text-decoration: none;
+	float: left;
+	font-style: italic;
+	font-family: 'Regular';
+	font-size: 0.8em;
+	color: #23b874;
+	margin-bottom: 10px;
+	width: 130px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.serbia {margin-top: 20px;}
 
 
 																
