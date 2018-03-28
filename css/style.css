@@ -1296,13 +1296,13 @@ opacity: 1;
     float: left;
     width: 250px;
     display: block;
-    margin-left: 600px;
-    top: 460px;
+    margin-left: 594px;
+    top: 64px;
     position: fixed;
 }
 
 
-.linkovi {height: 300px;}
+.linkovi {height: 300px; margin-top: 44px;}
 
 .linkovi h2 {
 	text-align: left;
@@ -1368,6 +1368,106 @@ opacity: 1;
 }
 
 .serbia {margin-top: 20px;}
+
+
+
+
+
+.banner {
+
+    float: left;
+    width: 250px;
+    height: 365px;
+    background-color: #fff;
+
+	overflow: hidden;
+}
+
+
+.banner:before {   background: url('../img/plyr.svg') no-repeat top center;
+    content: '';
+    width: 245px;
+    height: 212px;
+    display: block;
+margin-top: -5px;
+    margin-left: 15px;
+    opacity: 0.5;
+}
+
+.banner p {
+		color: #0e2e76;
+	font-family: 'Regular';
+	font-size: 1.7em;
+	text-align: left;
+	margin-left: 20px;
+	width: 100px;
+	margin-top: -160px;
+}
+
+.banner p span {
+	color: #23b874;
+}
+
+.bayern {
+	width: 250px;
+    height: 80px;
+    background-color: #23b874;
+    margin-top: 157px;
+}
+
+
+.bayern h2 {
+	color: #fff;
+	font-family: 'Regular';
+	font-size: 1.1em;
+	text-align: left;
+	padding:23px 0 6px 20px;
+	cursor: pointer;
+
+}
+.bayern h4 {
+	color: #fff;
+	font-family: 'Regular';
+	font-size: 0.8em;
+	text-align: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 																
