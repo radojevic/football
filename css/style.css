@@ -1410,9 +1410,16 @@ margin-top: -5px;
 
 .bayern {
 	width: 250px;
-    height: 80px;
+    height: 100px;
     background-color: #23b874;
-    margin-top: 157px;
+    margin-top: 137px;
+}
+
+.profile-ribbon-bayern {
+  border-right: 22px solid transparent; border-top: 40px solid #0e2e76; width: 225px; display: inline-block;
+    margin-top: 97px;
+    margin-left:0px;
+    float: left;
 }
 
 
@@ -1421,7 +1428,7 @@ margin-top: -5px;
 	font-family: 'Regular';
 	font-size: 1.1em;
 	text-align: left;
-	padding:23px 0 6px 20px;
+	padding:30px 0 6px 20px;
 	cursor: pointer;
 
 }
