@@ -457,7 +457,7 @@ Primary style
 
 .pref input[type=text]:focus {
   outline: none;
-  width: 70%;
+  width: 70%;  /****  jok ****/
   background-color: white;
 }
 
@@ -481,7 +481,7 @@ Primary style
 
 
 .pref p {font-family: 'Book'; color: #737394; font-size: 15px; line-height: 14px; padding-left: 16px; padding-right: 8px;}
-.pref ul {float: right; padding-right: 22px; margin-top: -45px;}
+.pref ul {float: right; padding-right: 11%; margin-top: -45px;}
 
 .pref ul li {  display: inline-block; vertical-align: middle;}
 
@@ -493,6 +493,7 @@ Primary style
     -ms-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;}
 .preferences:hover  {opacity: 1;    transition: all 0.2s ease-in-out; opacity: 0.7;}
+
 
 .logout { opacity: 1;
         margin-bottom: 4px;
