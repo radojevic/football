@@ -1428,8 +1428,13 @@ margin-top: -5px;
 	font-family: 'Regular';
 	font-size: 1.1em;
 	text-align: left;
-	padding:30px 0 6px 20px;
+	padding:36px 0 12px 20px;
 	cursor: pointer;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 
 }
 .bayern h4 {
@@ -1439,15 +1444,45 @@ margin-top: -5px;
 	text-align: left;
 	margin-left: 20px;
 	cursor: pointer;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+
+.bayern h2:hover {
+	color: #0e2e76;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+
+}
+.bayern h4:hover {
+	color: #0e2e76;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 
 
 
 
-
-
-
+.profile-ribbon-bayern:before {background: url('../img/bayern-pic.png') no-repeat left;
+    content: '';
+    display: block;
+    width: 136px;
+    height: 136px;
+	margin-top: -106px;
+    float: left;
+    margin-left: 4px;
+  }
 
 
 
