@@ -2076,11 +2076,11 @@ box-shadow: 0px 14px 43px 2px rgba(249,202,98,1);
 .drop .dropdown li a {
   display: block;
   padding-left: 13px;
-  margin-top: -39px;
+  margin-top: 40px;
   margin-right: -2px;
   text-decoration: none;
   font-size: 12px;
-  font-family: 'Book';
+  font-family: 'Regular';
   color: #4fa1f0;
   -webkit-transition: all 0.12s ease-out;
   -moz-transition: all 0.12s ease-out;
@@ -2109,17 +2109,18 @@ text-decoration: underline;
 
 
 .profilna {margin-top: 20px; }
-.dropdown .ime-prezime {color: #515151; font-size: 1em; font-family: 'Gotham'; padding-left: 8px;}
+.dropdown .ime-prezime {color: #1c1e22; font-size: 1em; font-family: 'Regular'; margin-top: 20px; float: left;}
 
+.dropdown  li {float: left;}
 .dropdown .out-drop {
     font-size: 1.2em;
-    font-family: 'Book';
+    font-family: 'Regular';
     padding-left: 8px;
     width: 288px;
-    height: 44px;
-    margin-top: 68px;
+    height: 52px;
+    margin-top: 0px;
     margin-left: -13px;
-    padding-top: 15px;
+    padding-top: 20px;
     text-decoration: none;
     border-top: 1px solid #e6e6ea;
     -webkit-transition: all 0.12s ease-in;
@@ -2130,7 +2131,7 @@ text-decoration: underline;
 
 .dropdown .out-drop:hover {
     text-decoration: none !important;
-    background-color: #e6e6ea;
+    background-color: #f1f3f5;
     -webkit-transition: all 0.12s ease-out;
     -moz-transition: all 0.12s ease-out;
     -ms-transition: all 0.12s ease-out;
@@ -2138,6 +2139,7 @@ text-decoration: underline;
     transition: all 0.12s ease-out;}
 
     .out-dr {    text-decoration: none !important;}
+
 
 
 
